@@ -4,7 +4,8 @@ export namespace bracketUtil {
     let bracketParis = [
         ["(", ")"], 
         ["{", "}"], 
-        ["[", "]"]
+        ["[", "]"],
+        ["<", ">"]
     ]
 
     let quoteBrackets = ['"', "'", "`"]
