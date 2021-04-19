@@ -129,7 +129,7 @@ function selectText(includeBrack: boolean, selection: vscode.Selection): { start
     }
 
     if (!isMatch(backwardResult, forwardResult)) {
-        showInfo('No matched bracket pairs found')
+        vscode.commands.executeCommand("editor.action.smartSelect.expand");
         return;
     }
     // we are next to a bracket
