@@ -3,7 +3,7 @@
     "displayName": "Bracket Select",
     "description": "Quick select code between brackets, support for (),{} and [], <>",
     "version": "2.0.2",
-    "publisher": "chunsen",
+    "publisher": "florisvdg",
     "icon": "icon.png",
     "engines": {
         "vscode": "^1.34.0"
