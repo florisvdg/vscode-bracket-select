@@ -38,20 +38,19 @@
         "keybindings": [
             {
                 "command": "bracket-select.undo-select",
-                "key": "alt+z",
-                "mac": "alt+z",
+                "key": "ctrl+shift+left",
+                "mac": "ctrl+shift+left",
                 "when": "editorTextFocus"
             },
             {
                 "command": "bracket-select.select",
-                "key": "alt+a",
-                "mac": "alt+a",
+                "key": "ctrl+shift+right",
+                "mac": "ctrl+shift+right",
                 "when": "editorTextFocus"
             },
             {
                 "command": "bracket-select.select-include",
-                "key": "ctrl+alt+a",
-                "mac": "cmd+alt+a",
+                "mac": "cmd+ctrl+shift+right",
                 "when": "editorTextFocus"
             }
         ]
